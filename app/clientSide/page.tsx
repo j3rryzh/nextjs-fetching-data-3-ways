@@ -4,7 +4,7 @@ import {
 } from '@tanstack/react-query'
 
 const getTime = async () => {
-  const response = await fetch('http://worldtimeapi.org/api/timezone/America/Vancouver')
+  const response = await fetch('https://worldtimeapi.org/api/timezone/America/Vancouver')
   return response.json()
 }
 

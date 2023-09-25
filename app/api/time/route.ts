@@ -4,7 +4,7 @@ export const runtime = 'edge'
 
 export async function GET() {
   const res = await fetch(
-    'http://worldtimeapi.org/api/timezone/America/Vancouver',
+    'https://worldtimeapi.org/api/timezone/America/Vancouver',
     {
       headers: {
         'Content-Type': 'application/json',

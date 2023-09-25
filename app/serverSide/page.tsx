@@ -2,7 +2,7 @@ import RefreshHandler from "@/app/RefreshHandler"
 
 const getTime = async () => {
   const res = await fetch(
-    'http://worldtimeapi.org/api/timezone/America/Vancouver',
+    'https://worldtimeapi.org/api/timezone/America/Vancouver',
     { cache: 'no-store' }
   )
   return res.json()
