@@ -1,0 +1,1 @@
+### This project test out 3 ways of fetching data in Next.js
